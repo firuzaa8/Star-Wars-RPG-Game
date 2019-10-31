@@ -2,12 +2,12 @@ body {
     background-image: url("../images/background.jpg");
     background-size: cover;
 }
-h1, h2 {
+h1, h2, h3, h4 {
     color:white;
 }
 img {
-    height: 150px;
-    width: 200px;
+    height: 50px;
+    width: 75px;
 }
 .character {
     padding:10px 20px 10px 20px;
@@ -19,9 +19,17 @@ img {
     margin-bottom: 30px;
 }
 h1 {
-    padding: 30px;
+    padding: 15px;
     margin-left: 60%;
 }
-h2 {
-    margin-bottom: 30px;
+h2, h3, h4 {
+    margin-bottom: 15px;
+}
+#row3 > .character {
+background-color: red;
+border: black solid
+}
+#row4 > .character {
+    background-color: black;
+    color:white;
 }
